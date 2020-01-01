@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<style>body{background: #00F;color:#FFF;font-family: 'Lucida Console', Consolas, sans-serif;font-size: 2vw;}</style>
+<script>q=location.search.slice(1).split('&');for(i=0;i<q.length;i++){var a;a=q[i].split('=');q[a[0]]=a[1]}window.onload=function(){
+document.getElementById('e').textContent=q['e']?q['e']:'UNKNOWN';t=document.getElementsByClassName('s');t[0].textContent=t[1].textContent=q['s']?q['s']:'unknown.sys';}</script>
+<title>A problem has been detected and windows has been shut down to prevent damage to your computer.</title>
+</head>
+<body>
+A problem has been detected and windows has been shut down<br/>
+to prevent damage to your computer.<br/>
+<p>The problem seems to be caused by the following file: <span class="s">unknown.sys</span></p>
+<p id="e">UNKNOWN</p>
+<p>If this is the first time you've seen this stop error screen,<br/>
+restart your computer. If this screen appears again,follow these<br/>
+steps:</p>
+<p>Check to make sure any new hardware or software is properly<br/>
+installed. If this is a new installation,ask your hardware or<br/>
+software manufacturer for any windows updates you might need.</p>
+<p>If problems continue,disable or remove any newly installed<br/>
+hardware or software. Disable BIOS memory options such as<br/>
+caching or shadowing.</p>
+<p>If you need to use Safe Mode to remove or disable components,<br/>
+restart your computer,press F8 select Advanced Startup Options,<br/>
+and then select Safe Mode.</p>
+<p>Technical information :<br/>
+*** stop;0x00000050(0xFC659060,0x00000000,oxFC659060,0x00000000)<br/>
+***<span class="s">unknown.sys</span> -Address F763BB1D base at F76150000, Datestamp 3b7dB507</p>
+</body>
+</html>
